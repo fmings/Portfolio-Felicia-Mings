@@ -10,7 +10,7 @@ export default function NoAuthNavBar() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link passHref href="/">
-          <Navbar.Brand>CHANGE ME</Navbar.Brand>
+          <Navbar.Brand>FM</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,8 +19,14 @@ export default function NoAuthNavBar() {
             <Link passHref href="/">
               <Nav.Link>Home</Nav.Link>
             </Link>
-            <Link passHref href="/delete-me">
-              <Nav.Link>Delete Me</Nav.Link>
+            <Link passHref href="/aboutme">
+              <Nav.Link>About Me</Nav.Link>
+            </Link>
+            <Link passHref href="/myresume">
+              <Nav.Link>My Resume</Nav.Link>
+            </Link>
+            <Link passHref href="/myprojects">
+              <Nav.Link>My Projects</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>
