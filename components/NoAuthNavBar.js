@@ -7,10 +7,10 @@ import {
 
 export default function NoAuthNavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className="navbar-style">
       <Container>
         <Link passHref href="/">
-          <Navbar.Brand>FM</Navbar.Brand>
+          <Navbar.Brand><img className="logo-image" src="/logo-white.png" alt="logo with the letters FM" /></Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

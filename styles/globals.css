@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #FFFAFA;
   text-decoration: none;
 }
 
@@ -18,5 +18,94 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  /* background-color: #88effd; */
+  background-image: url('/Portfolio-Background.svg');
+  color: #FFFAFA;
+}
+
+.navbar-style {
+  background-color: #431c73;
+  color: #FFFAFA;
+}
+
+.nav-link, .navbar-brand {
+  color: #FFFAFA;
+  font-size: 20px;
+}
+
+.about-me-intro-block {
+  display: flex;
+  flex-direction: row;
+  background-color: #431c7399;
+  width: 100%;
+  padding: 10%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 20px 35px 50px;
+  max-width: 1000px;
+}
+
+.navigation-blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation-block-button {
+  display: flex;
+  flex-direction: column;
+  background-color: #431c73;
+  color: #FFFAFA;
+  font-weight: bold;
+  font-size: 50px;
+  width: 275px;
+  height: 225px;
+  justify-content: center;
+  border: none;
+}
+
+.navigation-block-button:hover {
+  color: #431c73;
+  background-color: #decef3;
+}
+.navigation-block-button:active {
+  background-color: #431c73 !important;
+  color: #FFFAFA;
+}
+
+.navigation-block-button:active {
+  background-color: #431c73;
+  color: #decef3;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.intro-headline {
+  font-weight: bold;
+  font-size: 50px;
+  width: 100%;
+}
+
+.about-me-intro {
+  font-size: 1.15rem;
+}
+
+.intro-text-block {
+  margin-left: 50px;
+}
+
+.logo-image {
+  width: 50px;
 }
