@@ -9,9 +9,9 @@ export default function ResumeCard() {
         <p>Software Development | Program Management</p>
         <div className="experience-section">
           <div className="section-header">Technical Experience</div>
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="0" className="entry-accordian">
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Nashville Software School | Full Stack Software Developer</Accordion.Header>
+              <Accordion.Header className="accordian-header">Nashville Software School | Full Stack Software Developer</Accordion.Header>
               <Accordion.Body>
                 <ul>
                   <li>Twelve-month software development bootcamp incorporating front-end and back-end, individual and group projects</li>
@@ -34,9 +34,9 @@ export default function ResumeCard() {
             </Accordion.Item>
           </Accordion>
           <div className="section-header">Professional Experience</div>
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="0" className="entry-accordian">
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Tractor Supply Company | Merchandising Communications Specialist (Project Manager)</Accordion.Header>
+              <Accordion.Header className="accordian-header">Tractor Supply Company | Merchandising Communications Specialist (Project Manager)</Accordion.Header>
               <Accordion.Body>
                 <ul>
                   <li>Effectively manage a diverse portfolio of over 7 projects simultaneously, aimed at process improvement, digital integrations, and increasing vendor funding (such as Vendor Portal creation [UI/UX Design], DocuSign integration, ServiceNow process setup, creating reporting efficiencies, etc.)</li>
@@ -47,9 +47,9 @@ export default function ResumeCard() {
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="0" className="entry-accordian">
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Target | Senior Team Lead (Softlines)</Accordion.Header>
+              <Accordion.Header className="accordian-header">Target | Senior Team Lead (Softlines)</Accordion.Header>
               <Accordion.Body>
                 <ul>
                   <li>Led the team through new initiatives, transitions, and daily store operations</li>
@@ -61,17 +61,21 @@ export default function ResumeCard() {
           </Accordion>
           <div className="section-header">Education</div>
           <div>
-            <p>Nashville Software School</p>
-            <p>Full Stack Software Development</p>
-            <p>University of Kentucky</p>
-            <p>Bachelor of Science in Merchandising, Apparel, and Textiles</p>
-            <p>Bachelor of Business Administration in Marketing</p>
+            <div className="education-subsection">
+              <p className="education-subheader">Nashville Software School</p>
+              <p className="education-description">Full Stack Software Development</p>
+            </div>
+            <div className="education-subsection">
+              <p className="education-subheader">University of Kentucky</p>
+              <p className="education-description">Bachelor of Science in Merchandising, Apparel, and Textiles</p>
+              <p className="education-description">Bachelor of Business Administration in Marketing</p>
+            </div>
           </div>
         </div>
-        <div>
-          <Button passHref href="myprojects">My Projects</Button>
-          <Button passHref href="myprojects">My GitHub</Button>
-          <Button passHref href="myprojects">My LinkedIn</Button>
+        <div className="resume-button-group">
+          <Button className="resume-button" passHref href="myprojects">My Projects</Button>
+          <Button className="resume-button" target="_blank" passHref href="https://github.com/fmings">My GitHub</Button>
+          <Button className="resume-button" target="_blank" passHref href="https://www.linkedin.com/in/felicia-mings/">My LinkedIn</Button>
         </div>
 
       </div>
