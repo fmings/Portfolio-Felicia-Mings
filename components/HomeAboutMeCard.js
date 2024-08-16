@@ -16,7 +16,7 @@ export default function HomeAboutMeCard() {
       </div>
       <div className="navigation-blocks">
         <div><Link passHref href="/aboutme"><Button className="navigation-block-button">About<br /> Me</Button></Link></div>
-        <div><Link passHref href="/myresume"><Button className="navigation-block-button">My Resume</Button></Link></div>
+        <div><Link passHref href="/myresume"><Button className="navigation-block-button">My Experience</Button></Link></div>
         <div><Link passHref href="myprojects"><Button className="navigation-block-button last">My Projects</Button></Link></div>
       </div>
     </div>

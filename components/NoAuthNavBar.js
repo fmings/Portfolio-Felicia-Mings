@@ -20,7 +20,7 @@ export default function NoAuthNavBar() {
               <Nav.Link>About Me</Nav.Link>
             </Link>
             <Link passHref href="/myresume">
-              <Nav.Link>My Resume</Nav.Link>
+              <Nav.Link>My Experience</Nav.Link>
             </Link>
             <Link passHref href="/myprojects">
               <Nav.Link>My Projects</Nav.Link>
