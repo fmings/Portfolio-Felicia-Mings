@@ -121,3 +121,18 @@ body {
   width: 400px;
   border-radius: 25px;
 }
+
+.resume-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 20px 35px 50px;
+  max-width: 1000px;
+}
+
+.resume-background {
+  display: flex;
+  flex-direction: column;
+  background-color: #431c73cc;
+  text-align: center;
+  padding-top: 25px;
+}
