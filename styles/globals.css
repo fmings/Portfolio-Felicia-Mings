@@ -136,3 +136,69 @@ body {
   text-align: center;
   padding-top: 25px;
 }
+
+.experience-section {
+  text-align: left;
+}
+
+.section-header {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.entry-accordian {
+  padding-top: 10px;
+}
+
+.accordion-button {
+  background-color: #decef3;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #decef3;
+}
+
+.accordion-collapse {
+  background-color: #e1e1e1;
+}
+
+.education-subheader {
+  font-weight: bold;
+  margin: 0;
+}
+
+.education-description {
+  margin: 0;
+}
+
+.education-subsection {
+  margin-top: 12px;
+}
+
+.resume-button-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.resume-button {
+  padding: 15px;
+  width: 150px;
+  background-color: #decef3;
+  font-size: 20px;
+  color: #431c73;
+  border: none;
+}
+
+.resume-button:hover {
+  color: #431c73;
+  background-color: #FFFAFA;
+}
+.resume-button:active {
+  background-color: #431c73 !important;
+  color: #FFFAFA;
+}
