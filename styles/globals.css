@@ -202,3 +202,9 @@ body {
   background-color: #431c73 !important;
   color: #FFFAFA;
 }
+
+.project-card {
+  background-color: #431c73cc;
+  margin: 10px;
+  color: white;
+}
