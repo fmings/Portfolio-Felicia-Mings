@@ -21,6 +21,8 @@ body {
   /* background-color: #88effd; */
   background-image: url('/Portfolio-Background.svg');
   color: #FFFAFA;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar-style {
@@ -247,4 +249,22 @@ body {
   margin-top: 40px;
   padding-bottom: 15px;
   border-bottom: 2px #431c73 solid;
+}
+
+.project-card-button {
+  padding: 5px;
+  background-color: #decef3;
+  font-size: 16px;
+  color: #431c73;
+  border: none;
+  margin-right: 10px;
+  padding: 7px;
+}
+
+a {
+  color: #431c73;
+}
+
+.description {
+  color: #f5edff;
 }

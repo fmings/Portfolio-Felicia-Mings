@@ -1,5 +1,7 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import {
+  Button, Card, Col, Row,
+} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 export default function ProjectCard({ projectObj }) {
@@ -11,22 +13,22 @@ export default function ProjectCard({ projectObj }) {
             <Card.Img variant="top" src={projectObj.image} />
             <Card.Body>
               <Card.Title>{projectObj.title}</Card.Title>
-              <Card.Text>
+              <Card.Text className="description">
                 {projectObj.description}
               </Card.Text>
               {projectObj.deployedLink ? (
-                <Card.Text>
+                <Button className="project-card-button">
                   <a href={projectObj.deployedLink} target="_blank" rel="noopening noreferrer">
                     Visit App
                   </a>
-                </Card.Text>
+                </Button>
               ) : ''}
               {projectObj.loomLink ? (
-                <Card.Text>
+                <Button className="project-card-button">
                   <a href={projectObj.loomLink} target="_blank" rel="noopening noreferrer">
                     View Walk-through Video
                   </a>
-                </Card.Text>
+                </Button>
               ) : ''}
             </Card.Body>
           </Card>
