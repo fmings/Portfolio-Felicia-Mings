@@ -208,3 +208,43 @@ body {
   margin: 10px;
   color: white;
 }
+
+.contact-button-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.contact-button {
+  padding: 15px;
+  width: 300px;
+  background-color: #431c73;
+  font-size: 20px;
+  color: #FFFAFA;
+  border: none;
+  margin-top: 15px;
+}
+
+.contact-button:hover {
+  color: #431c73;
+  background-color: #FFFAFA;
+}
+.contact-button:active {
+  background-color: #FFFAFA !important;
+  color: #431c73;
+}
+
+.contact-page {
+  text-align: center;
+  background-color: #431c7399;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.contact-header {
+  margin-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 2px #431c73 solid;
+}

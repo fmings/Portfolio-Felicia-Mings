@@ -25,6 +25,9 @@ export default function NoAuthNavBar() {
             <Link passHref href="/myprojects">
               <Nav.Link>My Projects</Nav.Link>
             </Link>
+            <Link passHref href="/contact">
+              <Nav.Link>Contact Me</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
