@@ -68,5 +68,15 @@
     "loomLink":"https://www.loom.com/share/9546d2d731094375a14121ce75927736?sid=30d4b309-36f8-4d44-9b5b-d4e3499e8b1e",
     "image": "/vocab-YOU-lary-cover-photo.png",
     "dateCreated": "2024-03-30T14:30:00Z"
+  },
+  "-O2G3aLW1k7NcGX7k725":
+  {
+    "firebaseKey":"-O2G3aLW1k7NcGX7k725",
+    "title":"Full Stack Capstone Project - Bourbon Collective",
+    "description":"Bourbon Collective is a full-stack web application designed for bourbon enthusiasts. The platform allows users to create profiles, browse a collection of bourbons, and trade bottles with other members. It features a responsive user interface built with React and a C#/.NET backend. Key functionalities include user authentication, bourbon tracking, and the ability to connect with other users for bourbon trading. Bourbon Collective showcases my skills in building dynamic, user-driven applications with a focus on clean design and efficient data management.",
+    "deployedLink": null,
+    "loomLink":null,
+    "image": "/bourbon-collective-cover-photo.png",
+    "dateCreated": "2024-12-17T14:30:00Z"
   }
 }

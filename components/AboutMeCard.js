@@ -4,7 +4,9 @@ export default function AboutMeCard() {
   return (
     <div className="about-me-page-wrapper">
       <div className="page-block">
-        <div className="about-me-image-wrapper"><img className="about-me-image" src="/about-me-photo.jpg" alt="Felicia wearing floral dress" /></div>
+        <div className="about-me-image-wrapper">
+          <img className="about-me-image" src="/about-me-photo.jpg" alt="Felicia wearing floral dress" />
+        </div>
         <div className="intro-text-block">
           <div className="headline-text">About Me</div>
           <div className="about-me-text">Hey there! Welcome to my portfolio. To introduce myself, my name is Felicia and I am       currently a communications specialist working to transition into the technical industry through software development and design.
