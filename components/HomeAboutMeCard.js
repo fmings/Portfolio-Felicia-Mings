@@ -10,7 +10,7 @@ export default function HomeAboutMeCard() {
         <div className="intro-text-block">
           <div className="headline-text">Hello, I&apos;m Felicia</div>
           <div className="about-me-intro">
-            I am a multi-passionate individual with professional experience in Merchandising, Marketing, Project Management, Communications, and Web Development. I am currently learning to code at Nashville Software School. Explore my portfolio to see examples showcasing my design and coding skills!
+            I am a multi-passionate individual with professional experience in Merchandising, Marketing, Project Management, Communications, and Web Development. I have recently completed the Full Stack Web Development bootcamp at Nashville Software School. Explore my portfolio to see examples showcasing my design and coding skills!
           </div>
         </div>
       </div>
